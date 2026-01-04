@@ -76,9 +76,6 @@ scrape_configs:
                          [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("<You Code>"))
 
 
-OLg3GQk870b9Fppj4hy1T5vYbC7npH8Rkp0ZCGh6
-
-
 >>>>> Add Prometheus as a Data Source <<<<<
 31. Once login to Grana, navigate to: Connection > Data Sources > Add Data Source > Prometheus >
                                       Since Prometheus is running inside the cluster, use its ClusterIP service URL: http://prometheus-server.monitoring.svc.cluster.local:80
